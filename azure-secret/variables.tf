@@ -14,6 +14,7 @@ variable "metadata" {
   }
 }
 variable "tags" {
+  default = {}
 }
 
 variable "secret_key" {
